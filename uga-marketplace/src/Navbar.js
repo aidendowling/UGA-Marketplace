@@ -2,14 +2,14 @@ export default function Navbar() {
   return (
     <nav className="nav">
       <a href="/" class="site-title">
-        Site Name
+        Home
       </a>
       <ul>
         <li>
           <a href="/marketplace">Marketplace</a>
         </li>
         <li>
-          <a href="/cart">Cart</a>
+          <a href="/cart">Shopping Cart</a>
         </li>
       </ul>
     </nav>
