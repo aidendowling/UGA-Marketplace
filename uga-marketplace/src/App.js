@@ -1,12 +1,13 @@
 import Navbar from "./Navbar";
 import Cart from "./pages/Cart";
 import Marketplace from "./pages/Marketplace";
+import Home from "./pages/Home";
 
 function App() {
   let component;
   switch (window.location.pathname) {
     case "/":
-      component = <App />;
+      component = <Home />;
       break;
     case "/marketplace":
       component = <Marketplace />;
