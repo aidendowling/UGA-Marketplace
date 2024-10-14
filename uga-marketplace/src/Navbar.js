@@ -6,6 +6,9 @@ export default function Navbar() {
       </a>
       <ul>
         <li>
+          <a href="/item">Add Item</a>
+        </li>
+        <li>
           <a href="/marketplace">Marketplace</a>
         </li>
         <li>
