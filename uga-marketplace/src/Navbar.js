@@ -14,6 +14,9 @@ export default function Navbar() {
         <li>
           <a href="/cart">Shopping Cart</a>
         </li>
+        <li>
+        <a href="/profile">Profile</a>
+        </li>
       </ul>
     </nav>
   );

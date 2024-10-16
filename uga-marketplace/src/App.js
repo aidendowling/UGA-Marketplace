@@ -3,6 +3,7 @@ import Cart from "./pages/Cart";
 import Marketplace from "./pages/Marketplace";
 import Home from "./pages/Home";
 import Item from "./pages/Item";
+import Profile from "./pages/Profile";
 
 function App() {
   let component;
@@ -19,6 +20,9 @@ function App() {
     case "/cart":
       component = <Cart />;
       break;
+    case "/profile":
+    component = <Profile />;
+    break;
   }
   return (
     <>
