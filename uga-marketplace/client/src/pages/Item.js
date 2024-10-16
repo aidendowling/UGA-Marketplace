@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./item.css";
 
-const Item = () => {
+const Item = (props) => {
   const [userInput, setUserInput] = useState({
     enteredName: "",
     enteredTyped: "Ticket",
