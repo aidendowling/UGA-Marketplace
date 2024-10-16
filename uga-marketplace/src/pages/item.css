@@ -1,0 +1,33 @@
+.item {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+.item label {
+  text-align: left;
+  display: block;
+}
+.item h2 {
+  font-size: 20px;
+  color: #e63946;
+  margin-bottom: 30px;
+}
+.item input,
+.item textarea,
+.item select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.item button {
+  background: #e63946;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
